@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "strict": true,
-        "target": "es6",
+        "target": "ESNext",
         "moduleResolution": "bundler",
         "module": "ES6",
         "esModuleInterop": true,
@@ -10,6 +10,7 @@
         "outDir": "dist/js",
         "noEmitOnError": true,
         "jsx": "react",
-        "typeRoots": [ "node_modules/@types" ]
+        "lib": ["esnext", "dom", "ES2021.String"],
+        "typeRoots": ["node_modules/@types"]
     }
 }
